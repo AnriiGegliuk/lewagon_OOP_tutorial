@@ -15,12 +15,6 @@ class BasicMLPipline:
         else:
             self.feature_columns = [col for col in df.columns if col != target_column]
 
-    # def missing_values_info(self):
-    #     missing_data = self.df.isnull().sum()
-    #     total_data = len(self.df)
-    #     missing_percentage = (missing_data / total_data) * 100
-    #     return missing_percentage
-
     def missing_val(self):
         return (self.df.isnull().sum() / len(self.df)) * 100
 
@@ -29,9 +23,15 @@ class BasicMLPipline:
         if columns_to_drop:
             self.df.drop(columns=columns_to_drop, inplace=True)
 
-    def scale_features(self, columns_to_scale):
+    def scale_features(self, columns_to_scale=None):
+        if columns_to_scale is None:
+            columns_to_scale = self.feature_columns
+
+        columns_to_scale = [col for col in columns_to_scale if col != self.target_column]
+
         scaler = StandardScaler()
         self.df[columns_to_scale] = scaler.fit_transform(self.df[columns_to_scale])
+
 
     def class_distribution(self):
         return self.df[self.target_column].value_counts()
