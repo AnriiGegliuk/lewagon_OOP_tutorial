@@ -2,6 +2,8 @@
 ### Introduction
 Object-Oriented Programming (OOP) is a programming paradigm that provides a way of structuring programs by bundling related properties and behaviors into individual "objects". OOP is widely used across multiple programming languages like Python, Java, C++, and many more, making it an essential concept to grasp for any aspiring programmer.
 
+### Please find presentation here: :[Link])(https://docs.google.com/presentation/d/110f-bdNF1E3YLREtDaQs19P5T2NA7Iqj9D-f0R10IEo/edit#slide=id.g27b6c16443f_0_412)
+
 ### Why OOP?
 Code Reusability
 One of the key benefits of OOP is code reusability. Classes, the blueprint for objects, can be reused in different projects, reducing the amount of redundant code.
