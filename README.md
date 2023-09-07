@@ -18,12 +18,14 @@ OOP principles like encapsulation enable you to restrict access to certain detai
 The modular approach of OOP makes it easier to collaborate on projects, test individual units of code, and manage codebases.
 
 ### Key Concepts
-**Class**: The blueprint for creating objects.
-**Object**: An instance of a class.
-**Inheritance**: The mechanism to create a new class based on an existing class.
-**Polymorphism**: The ability of objects to take on more than one form.
-**Encapsulation**: The bundling of data and methods that manipulate the data.
-**Practical Lesson**: BasicMLPipline
+- **Class**: The blueprint for creating objects.
+- **Object**: An instance of a class.
+- **Inheritance**: The mechanism to create a new class based on an existing class.
+- **Polymorphism**: The ability of objects to take on more than one form.
+- **Encapsulation**: The bundling of data and methods that manipulate the data.
+- **Practical Lesson**: BasicMLPipline
+
+  
 In the context of Le Wagon Career Week, I've created a BasicMLPipline class to illustrate OOP principles. This class shows how you can encapsulate all steps of a basic machine learning pipeline—data cleaning, scaling, and model evaluation—into a single object. This makes it easy to reuse and extend the pipeline for different projects.
 
 ### Key Features
