@@ -6,6 +6,7 @@ Object-Oriented Programming (OOP) is a programming paradigm that provides a way 
 
 ### Why OOP?
 Code Reusability
+
 One of the key benefits of OOP is code reusability. Classes, the blueprint for objects, can be reused in different projects, reducing the amount of redundant code.
 
 #### Abstraction
