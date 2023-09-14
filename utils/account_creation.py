@@ -2,8 +2,8 @@
 # importing library for Abstract Base Class
 # from abc import ABC, abstractmethod
 from abc import ABC, abstractmethod
-"""Initiating Bank account class"""
 
+"""Initiating Bank account class"""
 class BankAccount(): # Parent class
     def __init__(self, account_holder, initial_balance, age):
         self.age = age # Public
